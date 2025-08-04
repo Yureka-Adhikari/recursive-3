@@ -14,7 +14,6 @@ def print_combinations(combinations, curr, output, n):
         if combinations[curr] == 0 or combinations[curr] == 1:
             return 
         
-        
 combination = [4,3,1]
 n = len(combination)
 print_combinations(combination,0, [], n)
